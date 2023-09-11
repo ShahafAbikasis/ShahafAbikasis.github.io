@@ -72,24 +72,6 @@ export default function Navbar() {
           <Image cursor='pointer' onClick={() => handleItemClick(0, '/')} className="fade-in-image" src={logo} />
         </Flex>
         <Flex padding="20px 20px 0px 0px" align="center">
-          {menu.map((item, i) =>
-          (
-            <Flex cursor="pointer" paddingX="11px">
-              <Heading className={activeClass === i ? "activeNav" : "nav"}
-                WebkitTransform="color 0.2s"
-                _hover={{
-                  transition: '0.2s',
-                  color: `${colors.activeNav}`,
-                }}
-                fontSize="11px"
-                as="h5"
-                key={item.id} onClick={() => handleItemClick(i, item.route)} >
-                <Link _hover={{ textDecor: 'none' }} textDecor='none' href={item.link}>
-                  {item.title}
-                </Link>
-              </Heading>
-            </Flex>
-          ))}
           <Flex cursor="pointer">
             <Button
               onClick={() => handleItemClick(4, '/contact')}
@@ -109,8 +91,28 @@ export default function Navbar() {
               as="h5"
               className={activeClass === 4 ? "activeNav" : "nav"}
             >
-              איש קשר            </Button>
+              איש קשר
+            </Button>
           </Flex>
+          {menu.map((item, i) =>
+          (
+            <Flex cursor="pointer" paddingX="11px">
+              <Heading className={activeClass === i ? "activeNav" : "nav"}
+                WebkitTransform="color 0.2s"
+                _hover={{
+                  transition: '0.2s',
+                  color: `${colors.activeNav}`,
+                }}
+                fontSize="11px"
+                as="h5"
+                key={item.id} onClick={() => handleItemClick(i, item.route)} >
+                <Link _hover={{ textDecor: 'none' }} textDecor='none' href={item.link}>
+                  {item.title}
+                </Link>
+              </Heading>
+            </Flex>
+          ))}
+
         </Flex>
       </>)}
 

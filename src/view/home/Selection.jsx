@@ -29,7 +29,7 @@ export default function Selection() {
                 </Flex>
                 <Flex align='center' justifyContent='center' marginBottom={['100px', '50px', '50px', '50px']} flexDir='column'>
 
-                    <Flex gap='2rem' flexDir='column' w={['80%']}>
+                    <Flex border='1px solid red' gap='2rem' flexDir='column' w={['80%']}>
                         <Text lineHeight='3rem' fontSize={['20px', '16px', '16px', '16px']} color={colors.blackText}>
                             בסדנה שלי אני מעצב ויוצר מפריטי עיצוב, אהילים, ספריות, ועד עיצוב חללים משלל חומרים בהתאמה ובעיצוב אישי המדויק לחלומותיכם ולטעמכם
 
