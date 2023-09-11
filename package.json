@@ -1,7 +1,7 @@
 {
+  "homepage": "https://shahafabikasis.github.io",
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://ShahafAbikasis.github.io/website",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.1.0",

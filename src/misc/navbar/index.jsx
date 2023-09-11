@@ -24,15 +24,16 @@ export default function Navbar() {
       id: '3FDR',
     },
     {
-      title: 'גלריה',
-      route: '/gallery',
-      id: '2DEF',
-    },
-    {
       title: 'על אודות',
       route: '/about',
       id: '321HA',
     },
+    {
+      title: 'גלריה',
+      route: '/gallery',
+      id: '2DEF',
+    },
+
     {
       title: 'בית',
       route: '/',
@@ -69,7 +70,7 @@ export default function Navbar() {
       </>) : (<>
 
         <Flex padding="20px 0px 0px 20px" h="100px" w="100px">
-          <Image cursor='pointer' onClick={() => handleItemClick(0, '/')} className="fade-in-image" src={logo} />
+          <Image cursor='pointer' onClick={() => handleItemClick(3, '/')} className="fade-in-image" src={logo} />
         </Flex>
         <Flex padding="20px 20px 0px 0px" align="center">
           <Flex cursor="pointer">

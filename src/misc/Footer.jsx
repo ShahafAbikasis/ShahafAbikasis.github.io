@@ -11,11 +11,12 @@ export default function Footer() {
     const navigate = useNavigate()
     const { handleItemClick } = useContext(pageContext)
     const navigation = [
-        { text: 'בית', href: '/', id: '4321ds' },
+        { text: 'המלצות', href: 'testimonials', id: '23s22s' },
         { text: 'על אודות', href: 'about', id: 'dsad213' },
         { text: 'גלריה', href: 'gallery', id: '090sds' },
-        { text: 'המלצות', href: 'testimonials', id: '23s22s' },
+        { text: 'בית', href: '/', id: '4321ds' },
         { text: 'איש קשר', href: 'contact', id: '3180dsa' },
+
     ]
 
     const handleNav = (i, nav) => {

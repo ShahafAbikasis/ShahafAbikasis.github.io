@@ -5,7 +5,7 @@ export default function usePage() {
 
     const navigate = useNavigate()
 
-    const [activeClass, setActiveClass] = useState(0);
+    const [activeClass, setActiveClass] = useState(3);
     const [isAcctive, setIsAcctive] = useState(false)
 
 
