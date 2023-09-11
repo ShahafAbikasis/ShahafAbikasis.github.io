@@ -22,13 +22,13 @@ export default function ImageCollection() {
     };
 
 
-    console.log(All, 'All')
+    console.log(params.id, 'All')
     useEffect(() => {
         if (params.id == 'Storage  Solutions') {
             console.log('Storage  Solutions')
             setSelectedImgs(Storage)
         }
-        else if (params.id == 'Handcrafted Kitchens ') {
+        else if (params.id == 'Handcrafted Kitchens') {
             console.log('Handcrafted Kitchens ')
             setSelectedImgs(Kitchens)
         }

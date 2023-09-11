@@ -12,14 +12,13 @@ import { useNavigate } from "react-router-dom";
 
 
 const images = [
-  { img: storage, alt: 'פתרונות אחסון', title: 'פתרונות אחסון', url: '', id: 'dl34s' },
-  { img: celebrating, alt: 'מטבחים בעבודת יד', title: 'מטבחים בעבודת יד', url: '', id: 'sdm3d' },
-  { img: general, alt: 'נגרות כללית', title: 'נגרות כללית', url: '', id: '063sfd' },
-  { img: sow, alt: 'כל התמונות', title: 'כל התמונות', url: '', id: '063sfd' },
+  { img: storage, alt: 'פתרונות אחסון', title: 'פתרונות אחסון', url: 'Storage  Solutions', id: 'dl34s' },
+  { img: celebrating, alt: 'מטבחים בעבודת יד', title: 'מטבחים בעבודת יד', url: 'Handcrafted Kitchens', id: 'sdm3d' },
+  { img: general, alt: 'נגרות כללית', title: 'נגרות כללית', url: 'General Carpentry', id: '063sfd' },
+  { img: sow, alt: 'כל התמונות', title: 'כל התמונות', url: 'All Images', id: '063sfd' },
 ];
 
 function App() {
-
   const [isSmallScreen] = useMediaQuery("(max-width: 890px)");
 
 
@@ -64,7 +63,7 @@ function App() {
               <Heading paddingY='50px' as='h2' color={colors.activeNav} fontSize="28px" paddingBottom='20px'>{img.title}</Heading>
             </Flex>
             <Flex justifyContent='center' w='100%' key={img.id}>
-              <Image boxShadow='rgba(50, 50, 93, 0.25) 0px 13px 27px -5px' cursor='pointer' onClick={() => navigate(`/gallery/${img.title}/images`)} alt={img.alt} w={['280px', '500px', '350px', '500px']} borderRadius='5px' h={['280px', '500px', '350px', '500px']} objectFit='cover' src={img.img} />
+              <Image boxShadow='rgba(50, 50, 93, 0.25) 0px 13px 27px -5px' cursor='pointer' onClick={() => navigate(`/gallery/${img.url}/images`)} alt={img.alt} w={['280px', '500px', '350px', '500px']} borderRadius='5px' h={['280px', '500px', '350px', '500px']} objectFit='cover' src={img.img} />
 
               {/* (<Image alt={img.alt} minW='350px' maxW='350px' maxH='350px' minH='350px' objectFit='cover' src={img.img} />)
               } */}
@@ -85,7 +84,7 @@ function App() {
                 </Flex>
                 <Flex key={img.id} className={idx === imageIndex ? "slide-gallery activeSlide-gallery" : "slide-gallery"}>
                   {idx === imageIndex ?
-                    (<Image cursor='pointer' onClick={() => navigate(`/gallery/${img.title}/images`)} alt={img.alt} minW='350px' maxW='350px' maxH='350px' borderRadius='5px' minH='350px' objectFit='cover' src={img.img} />)
+                    (<Image cursor='pointer' onClick={() => navigate(`/gallery/${img.url}/images`)} alt={img.alt} minW='350px' maxW='350px' maxH='350px' borderRadius='5px' minH='350px' objectFit='cover' src={img.img} />)
                     :
                     (<Image alt={img.alt} minW='350px' maxW='350px' maxH='350px' minH='350px' objectFit='cover' src={img.img} />)
                   }
