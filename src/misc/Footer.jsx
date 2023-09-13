@@ -29,12 +29,12 @@ export default function Footer() {
     return (
         <Flex w='100%' bgColor='#f0f0f0'>
             <Flex flexDir='column' w='100%'>
-                <Flex gap='2rem' w='100%' justifyContent='center' align='center' padding='32px'>
+                <Flex gap={['5rem', '2rem', '2rem', '2rem']} w='100%' justifyContent='center' align='center' padding='32px'>
                     <Link href="https://www.instagram.com/shahaf.abukasis/" isExternal>
-                        <AiOutlineInstagram />
+                        <AiOutlineInstagram size={30} />
                     </Link>
                     <Link href="https://www.facebook.com/profile.php?id=100063639397320" isExternal>
-                        <RiFacebookCircleFill />
+                        <RiFacebookCircleFill size={30} />
                     </Link>
                 </Flex>
                 <Flex display={['grid', 'block', 'flex', 'flex']} padding={['20px', '37px', '37px', '37px']} w='100%' align='center' justifyContent='center' bgColor='#201a16'>

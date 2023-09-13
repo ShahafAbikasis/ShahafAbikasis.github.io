@@ -20,16 +20,16 @@ export default function Selection() {
 
 
     return (
-        <Flex padding='96px 32px' align='center' justifyContent='center' textAlign='center' w='100%' >
-            <Flex flexDir='column' w={['90%', '80%', '80%', '80%']}>
+        <Flex padding={['96px 15px', '96px 15px', '96px 32px', '96px 32px']} align='center' justifyContent='center' textAlign='center' w='100%' >
+            <Flex flexDir='column' w={['100%', '100%', '80%', '80%']}>
                 <Flex justifyContent='center' fontSize={['25px', '18px', '18px', '18px']} marginBottom='25px' align='center'>
 
                     <Heading margin='0' fontSize={['25px', '18px', '18px', '18px']} letterSpacing='4px' fontWeight={400} as='h1' >
                         שילוב של ידע רחב בנגרות עם התלקחות אומנותית</Heading>
                 </Flex>
-                <Flex align='center' justifyContent='center' marginBottom={['100px', '50px', '50px', '50px']} flexDir='column'>
+                <Flex align='center' justifyContent='center' marginBottom={['50px', '50px', '100px', '100px']} flexDir='column'>
 
-                    <Flex border='1px solid red' gap='2rem' flexDir='column' w={['80%']}>
+                    <Flex border='1px solid red' gap='2rem' flexDir='column' w={['90%', '90%', '80%', '80%']}>
                         <Text lineHeight='3rem' fontSize={['20px', '16px', '16px', '16px']} color={colors.blackText}>
                             בסדנה שלי אני מעצב ויוצר מפריטי עיצוב, אהילים, ספריות, ועד עיצוב חללים משלל חומרים בהתאמה ובעיצוב אישי המדויק לחלומותיכם ולטעמכם
 
@@ -40,16 +40,16 @@ export default function Selection() {
                     </Flex>
 
                 </Flex>
-                <Box display={['block', 'flex', 'flex', 'flex']} justifyContent='center' align='center'>
+                <Box gap='2rem' display={['block', 'flex', 'flex', 'flex']} justifyContent='center' align='center'>
                     {images.map((image) =>
                         <Flex w={['90%', '70%', '33.3%', '33.3%']}>
 
                             <Flex marginBottom={['6rem', '0px', '0px', '0px']} padding='17px' gap='1.5rem' flexDir='column'>
-                                <Image marginTop={['50px', '0px', '0px', '0px']} alt={image.header} objectPosition='50% 50%' objectFit='cover' w='100%' h='100%' className="images-home" src={image.img} />
-                                <Flex justifyContent='space-between' gap={['1rem', '0', '1rem', '1rem']} minH={['200px', '200px', '150px', '150px']} flexDir='column'>
+                                <Image borderBottomRightRadius='20%' borderTopLeftRadius='20%' marginTop={['50px', '0px', '0px', '0px']} alt={image.header} objectPosition='50% 50%' objectFit='cover' w='100%' h='100%' className="images-home" src={image.img} />
+                                <Flex justifyContent='space-between' gap={['0', '0', '1rem', '1rem']} maxH={['150px', '150px', '150px', '150px']} minH={['150px', '150px', '150px', '150px']} flexDir='column'>
                                     <Heading fontWeight={400} letterSpacing={['4px', '2px', '4px', '4px']} fontSize={['25px', '15px', '18px', '18px']} color={colors.blackText}>{image.header}</Heading>
                                     <Flex dir="rtl" justifyContent='center'>
-                                        <Text w='80%' textAlign='justify' fontWeight={300} fontSize={['20px', '16px', '16px', '16px']} color={colors.blackText}>{image.text}</Text>
+                                        <Text w={['100%', '100%', '80%', '80%']} textAlign='center' fontWeight={300} fontSize={['20px', '16px', '16px', '16px']} color={colors.blackText}>{image.text}</Text>
                                     </Flex>
                                     {isSmallScreen ? (
                                         <Flex marginTop='4rem' w='100%' justifyContent='center'>

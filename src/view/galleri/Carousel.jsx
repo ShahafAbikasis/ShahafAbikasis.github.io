@@ -63,7 +63,7 @@ function App() {
               <Heading paddingY='50px' as='h2' color={colors.activeNav} fontSize="28px" paddingBottom='20px'>{img.title}</Heading>
             </Flex>
             <Flex justifyContent='center' w='100%' key={img.id}>
-              <Image boxShadow='rgba(50, 50, 93, 0.25) 0px 13px 27px -5px' cursor='pointer' onClick={() => navigate(`/gallery/${img.url}/images`)} alt={img.alt} w={['280px', '500px', '350px', '500px']} borderRadius='5px' h={['280px', '500px', '350px', '500px']} objectFit='cover' src={img.img} />
+              <Image boxShadow='rgba(50, 50, 93, 0.25) 0px 13px 27px -5px' cursor='pointer' onClick={() => navigate(`/gallery/${img.url}/images`)} alt={img.alt} w={['300px', '500px', '350px', '500px']} borderRadius='5px' h={['280px', '500px', '350px', '500px']} objectFit='cover' src={img.img} />
 
               {/* (<Image alt={img.alt} minW='350px' maxW='350px' maxH='350px' minH='350px' objectFit='cover' src={img.img} />)
               } */}

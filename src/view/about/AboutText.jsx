@@ -8,7 +8,7 @@ export default function AboutText() {
     return (
         <Flex flexDir='column'>
             <Flex marginTop={['0px', '0px', '0px', '50px']} padding={['80px 32px', '96px 32px', '96px 32px', '96px 32px']} align='center' justifyContent='center' textAlign='center' w='100%' >
-                <Flex flexDir='column' w='80%'>
+                <Flex flexDir='column' w='95%'>
                     <Heading fontSize={['20px', '25px', '32px', '32px']} letterSpacing='4px' fontWeight={[500, 400, 400, 400]} as='h1' marginBottom='30px'>
                         חי ויוצר ברמת הגולן בה גדלתי וממנה ספגתי את אהבתי לטבע.
                         הסדנה שלי ממוקמת במושב רמות משקיפה על הנוף המתחלף של הכנרת והרי הגולן מהם אני שואב השראה.

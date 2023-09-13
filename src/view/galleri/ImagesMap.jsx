@@ -10,7 +10,7 @@ export default function ImageMap({ images, openCardView }) {
                 console.log(item.image)
                 return (
                     <>
-                        <Image minH={['200px', '100px', '200px', '200px']} minW={['200px', '100px', '200px', '200px']} w='100%'
+                        <Image minH={['300px', '300px', '200px', '200px']} minW={['300px', '300px', '200px', '200px']} w='100%'
                             boxShadow='5px 5px 5px 0px rgba(0,0,0,0.3)'
                             className="zoom-image"
                             onClick={() => {

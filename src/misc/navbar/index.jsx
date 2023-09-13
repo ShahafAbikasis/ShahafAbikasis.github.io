@@ -33,7 +33,6 @@ export default function Navbar() {
       route: '/gallery',
       id: '2DEF',
     },
-
     {
       title: 'בית',
       route: '/',
