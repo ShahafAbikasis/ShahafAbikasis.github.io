@@ -1,38 +1,25 @@
-import img1 from './kitchen/46837188_1918427041610082_6305198525252632576_n copy.jpeg';
-import img2 from './kitchen/92616225_2812112095574901_5871002465775648768_n.jpeg';
-import img3 from './kitchen/92631608_2812112038908240_3397878494791729152_n.jpeg';
-import img4 from './kitchen/92842031_2812111882241589_6005282213103403008_n.jpeg';
-import img5 from './kitchen/116220467_3107105069408934_2085818592835660873_n.jpeg';
-import img6 from './kitchen/92616225_2812112095574901_5871002465775648768_n.jpeg';
-import img7 from './kitchen/92631608_2812112038908240_3397878494791729152_n.jpeg';
-import img8 from './kitchen/92842031_2812111882241589_6005282213103403008_n.jpeg';
-import img9 from './kitchen/116897180_3107101466075961_7333240604107603645_n.jpeg';
-import img10 from './kitchen/117042961_3107146319404809_3665976198013261151_n.jpeg';
-import img11 from './kitchen/117077790_3107144676071640_6779819602509442884_n.jpeg';
-import img12 from './kitchen/117169007_3107144812738293_2334305191224248942_n.jpeg';
-import img13 from './kitchen/117170016_3107144582738316_7690272975594446521_n.jpeg';
-import img14 from './kitchen/117170016_3107144582738316_7690272975594446521_n.jpeg';
-import img15 from './kitchen/117171088_3107096806076427_4999593272807794041_n.jpeg';
-import img16 from './kitchen/117222265_3107154299404011_5043250025794240853_n.jpeg';
-import img17 from './kitchen/117409153_3141820752604032_8784356098570256257_n.jpeg';
-import img18 from './kitchen/117648700_3141819512604156_6339987080853343445_n.jpeg';
-import img19 from './kitchen/117660044_3141815019271272_5659440426132220861_n.jpeg';
-import img20 from './kitchen/117666896_3141818562604251_3934343906078185566_n.jpeg';
-import img21 from './kitchen/117669596_3141820615937379_7432493296988798943_n.jpeg';
-import img22 from './kitchen/117721927_3141820475937393_1615851681645164439_n.jpeg';
-import img23 from './kitchen/117767512_3141818625937578_725786228448187295_n.jpeg';
-import img24 from './kitchen/117770765_3141820632604044_8466340663186669947_n.jpeg';
-import img25 from './kitchen/119240549_3230006990452074_6812806713007768261_n.jpeg';
-import img26 from './kitchen/305793212_490206883110621_3933464547005953322_n.jpeg';
-import img27 from './kitchen/305794760_490206876443955_2269725497995774866_n.jpeg';
-import img28 from './kitchen/305800528_490203369777639_7396822509349860429_n.jpeg';
-import img29 from './kitchen/305809921_490203373110972_6634387769338683059_n.jpeg';
-import img30 from './kitchen/305837777_490203376444305_4484995542789105312_n.jpeg';
-import img31 from './kitchen/305842539_490205716444071_5917842861860153881_n.jpeg';
-import img32 from './kitchen/305891951_490205713110738_7752525892334390626_n.jpeg';
-import img33 from './kitchen/305994956_491020649695911_1552956999017749761_n.jpeg';
-import img34 from './kitchen/305994956_491020649695911_1552956999017749761_n.jpeg';
-import img35 from './kitchen/306188463_490195083111801_2834953359186738541_n.jpeg';
+import img1 from "./kitchen/46837188_1918427041610082_6305198525252632576_n copy.jpeg";
+import img5 from "./kitchen/116220467_3107105069408934_2085818592835660873_n.jpeg";
+import img6 from "./kitchen/92616225_2812112095574901_5871002465775648768_n.jpeg";
+import img7 from "./kitchen/92631608_2812112038908240_3397878494791729152_n.jpeg";
+import img9 from "./kitchen/116897180_3107101466075961_7333240604107603645_n.jpeg";
+import img11 from "./kitchen/117077790_3107144676071640_6779819602509442884_n.jpeg";
+
+import img15 from "./kitchen/117171088_3107096806076427_4999593272807794041_n.jpeg";
+
+import img18 from "./kitchen/117648700_3141819512604156_6339987080853343445_n.jpeg";
+import img19 from "./kitchen/117660044_3141815019271272_5659440426132220861_n.jpeg";
+import img20 from "./kitchen/117666896_3141818562604251_3934343906078185566_n.jpeg";
+
+import img23 from "./kitchen/117767512_3141818625937578_725786228448187295_n.jpeg";
+import img25 from "./kitchen/119240549_3230006990452074_6812806713007768261_n.jpeg";
+import img27 from "./kitchen/305794760_490206876443955_2269725497995774866_n.jpeg";
+import img28 from "./kitchen/305800528_490203369777639_7396822509349860429_n.jpeg";
+import img29 from "./kitchen/305809921_490203373110972_6634387769338683059_n.jpeg";
+import img30 from "./kitchen/305837777_490203376444305_4484995542789105312_n.jpeg";
+
+import img34 from "./kitchen/305994956_491020649695911_1552956999017749761_n.jpeg";
+import img35 from "./kitchen/306188463_490195083111801_2834953359186738541_n.jpeg";
 // import img36 from '../images/0.png';
 // import img37 from '../images/0.png';
 // import img38 from '../images/0.png';
@@ -95,143 +82,143 @@ import img35 from './kitchen/306188463_490195083111801_2834953359186738541_n.jpe
 export const Kitchens = [
   {
     image: img1,
-    id: '111',
+    id: "111",
   },
-  {
-    image: img2,
-    id: '222',
-  },
-  {
-    image: img3,
-    id: '333',
-  },
-  {
-    image: img4,
-    id: '444',
-  },
+  // {
+  //   image: img2,
+  //   id: "222",
+  // },
+  // {
+  //   image: img3,
+  //   id: "333",
+  // },
+  // {
+  //   image: img4,
+  //   id: "444",
+  // },
   {
     image: img5,
-    id: '555',
+    id: "555",
   },
   {
     image: img6,
-    id: '666',
+    id: "666",
   },
   {
     image: img7,
-    id: '777',
+    id: "777",
   },
-  {
-    image: img8,
-    id: '888',
-  },
+  // {
+  //   image: img8,
+  //   id: "888",
+  // },
   {
     image: img9,
-    id: '999',
+    id: "999",
   },
-  {
-    image: img10,
-    id: '121',
-  },
+  // {
+  //   image: img10,
+  //   id: "121",
+  // },
   {
     image: img11,
-    id: '232',
+    id: "232",
   },
-  {
-    image: img12,
-    id: '343',
-  },
-  {
-    image: img13,
-    id: '454',
-  },
-  {
-    image: img14,
-    id: '565',
-  },
+  // {
+  //   image: img12,
+  //   id: "343",
+  // },
+  // {
+  //   image: img13,
+  //   id: "454",
+  // },
+  // {
+  //   image: img14,
+  //   id: "565",
+  // },
   {
     image: img15,
-    id: '676',
+    id: "676",
   },
-  {
-    image: img16,
-    id: '787',
-  },
-  {
-    image: img17,
-    id: '898',
-  },
+  // {
+  //   image: img16,
+  //   id: "787",
+  // },
+  // {
+  //   image: img17,
+  //   id: "898",
+  // },
   {
     image: img18,
-    id: '909',
+    id: "909",
   },
   {
     image: img19,
-    id: '321',
+    id: "321",
   },
   {
     image: img20,
-    id: '52123',
+    id: "52123",
   },
-  {
-    image: img21,
-    id: '656543',
-  },
-  {
-    image: img22,
-    id: 'dsad',
-  },
+  // {
+  //   image: img21,
+  //   id: "656543",
+  // },
+  // {
+  //   image: img22,
+  //   id: "dsad",
+  // },
   {
     image: img23,
-    id: '43esad',
+    id: "43esad",
   },
-  {
-    image: img24,
-    id: '324wer',
-  },
+  // {
+  //   image: img24,
+  //   id: "324wer",
+  // },
   {
     image: img25,
-    id: 'terv',
+    id: "terv",
   },
-  {
-    image: img26,
-    id: '4wtrf',
-  },
+  // {
+  //   image: img26,
+  //   id: "4wtrf",
+  // },
   {
     image: img27,
-    id: 'r42werwe',
+    id: "r42werwe",
   },
   {
     image: img28,
-    id: '3rew',
+    id: "3rew",
   },
   {
     image: img29,
-    id: 'grewr',
+    id: "grewr",
   },
   {
     image: img30,
-    id: 'w4res',
+    id: "w4res",
   },
-  {
-    image: img31,
-    id: 'rwe',
-  },
-  {
-    image: img32,
-    id: 'fdsy',
-  },
-  {
-    image: img33,
-    id: 'kujytret',
-  },
+  // {
+  //   image: img31,
+  //   id: "rwe",
+  // },
+  // {
+  //   image: img32,
+  //   id: "fdsy",
+  // },
+  // {
+  //   image: img33,
+  //   id: "kujytret",
+  // },
   {
     image: img34,
-    id: 'dsfg',
+    id: "dsfg",
   },
   {
     image: img35,
-    id: '5erdf',
+    id: "5erdf",
   },
   //   {
   //     image: img36,
